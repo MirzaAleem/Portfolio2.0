@@ -1,0 +1,18 @@
+#about{
+    position: relative;
+    background: #020912;
+    padding: 30px 100px;
+}
+
+#about h2{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#about p{
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+    text-align: justify;
+}
