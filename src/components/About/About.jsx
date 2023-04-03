@@ -3,15 +3,19 @@ import "./about.css"
 function About() {
   return (
     <div id="about">
-        <h2>About me</h2>
-        <p>le. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
-Line 12:17:  The href attribute requires a valid value to be acceovide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
-Line 12:17:  The href attribute requires a valid value to be acceovide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
-Line 12:17:  The href attribute requires a valid value to be acceovide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
-Line 12:17:  The href attribute requires a valid value to be acceovide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
-Line 12:17:  The href attribute requires a valid value to be acceovide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
-Line 12:17:  The href attribute requires a valid value to be acceovide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
-Line 12:17:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid</p>
+        <div className="about-text">
+        <h2>Greetings,</h2>
+        <p>My name is Mirza Aleem Abbas, and I am currently in the final semester of my B.Tech in Computer Science program.
+           As an aspiring web developer and UI/UX developer, I have gained valuable knowledge in the field.
+           I have a keen interest in creating visually appealing and user-friendly websites and applications, 
+           and have honed my skills in front-end development. Throughout my academic journey, 
+           I have actively sought out opportunities to expand my knowledge and skills, including participating 
+           in various coding challenges and hackathons.
+        </p>
+        </div>
+        <div className="about-me-image">
+        <img src="assets\images\me.png" alt="Me" className="floating-animation" />
+      </div>
     </div>
   )
 }

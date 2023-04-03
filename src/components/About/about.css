@@ -2,17 +2,54 @@
     position: relative;
     background: #020912;
     padding: 30px 100px;
+    display: flex;
+}
+
+.about-text{
+    border: 2px solid white;
+    margin: 0;
+    padding: 10px;
+    width: 50%;
+    height: fit-content;
 }
 
 #about h2{
-    font-size: 3em;
+    font-size: 3rem;
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
+    padding-left: 20px;
 }
 
 #about p{
-    font-size: 1em;
+    padding: 20px;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #fff;
     font-weight: 300;
     text-align: justify;
 }
+.about-me-image {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .about-me-image img {
+    background: linear-gradient(45deg, #f3ca57, #9c613f);
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    object-fit: contain;
+    animation: floating 3s ease-in-out infinite;
+  }
+  
+  @keyframes floating {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

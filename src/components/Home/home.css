@@ -12,6 +12,7 @@
 
 #greet{
     position: absolute;
+    text-align: center;
     font-size: 5em;
     color: #1b283a;
     text-shadow: 2px 4px 5px #f9f9f9;
