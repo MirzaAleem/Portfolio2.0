@@ -1,0 +1,90 @@
+#project{
+    height: 100vh;
+    border: 0;
+    background: url;
+}
+
+#project-heading{
+  margin-top: 50px;
+    text-align: center;
+    font-size: 4rem;
+    color: #000;
+    margin-bottom: 2px;
+    padding-left: 20px;
+}
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+  }
+
+#projects{
+  display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.project-card {
+    max-width: 400px;
+    height: fit-content;
+    margin: 1rem;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .project-image {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .project-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .project-info {
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .project-title {
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-description {
+    margin-bottom: 1rem;
+  }
+  
+  .project-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .project-link:hover {
+    background-color: #555;
+  }
+  
+  .project-card:hover .project-image img {
+    transform: scale(1.1);
+  }
+  
+  .project-card:hover .project-info {
+    bottom: 0;
+  }
+  

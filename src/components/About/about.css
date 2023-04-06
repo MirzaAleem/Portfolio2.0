@@ -2,7 +2,12 @@
     position: relative;
     background: #020912;
     padding: 30px 100px;
-    display: flex;
+}
+
+#info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .about-text{
@@ -11,6 +16,17 @@
     padding: 10px;
     width: 50%;
     height: fit-content;
+}
+
+.quote{
+  margin-bottom: 10%;
+}
+
+q{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    padding-left: 20px;
 }
 
 #about h2{
@@ -28,6 +44,14 @@
     font-weight: 300;
     text-align: justify;
 }
+
+.keywords{
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #cdb56c;
+    font-weight: 300;
+}
+
 .about-me-image {
     width: 50%;
     text-align: center;
@@ -42,6 +66,48 @@
     animation: floating 3s ease-in-out infinite;
   }
   
+  .techStack {
+    text-align: center;
+  }
+  
+  #about > section > h2 {
+    margin-bottom: 30px;
+  }
+  
+  .techList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .techList li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem;
+  }
+  
+  .techList li:last-child {
+    margin-right: 0;
+  }
+  
+  .techList i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: antiquewhite;
+  }
+  
+  .techList span {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: antiquewhite;
+  }
+  
+
   @keyframes floating {
     0% {
       transform: translateY(0);
@@ -51,5 +117,10 @@
     }
     100% {
       transform: translateY(0);
+    }
+  }
+  @media (max-width: 800px) {
+    .info {
+      flex-direction: column;
     }
   }
