@@ -1,4 +1,7 @@
 import "./about.css"
+import ScrollReveal from "scrollreveal"
+
+ScrollReveal().reveal('.quote')
 
 function About() {
   return (
