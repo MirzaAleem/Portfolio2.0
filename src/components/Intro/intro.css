@@ -1,0 +1,92 @@
+#intro{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeaway 2s ease 5s;
+}
+
+#intro-logo2{
+    margin-left: 90px;
+    opacity: 0;
+    animation: spooky 1s ease forwards 3s;;
+}
+ 
+#intro-logo path:nth-child(2){
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    stroke-dasharray: 414.22418212890625;
+    stroke-dashoffset: 414.22418212890625;
+    animation: line-anim 0.5s linear forwards,fill 0.5s ease forwards 3s;
+}
+#intro-logo path:nth-child(3){
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    stroke-dasharray: 302.9470520019531;
+    stroke-dashoffset: 302.9470520019531;
+    animation: line-anim 0.5s linear forwards 0.5s,fill 0.5s ease forwards 3s;
+}
+#intro-logo path:nth-child(4){
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    stroke-dasharray: 438.241455078125;
+    stroke-dashoffset: 438.241455078125;
+    animation: line-anim 0.5s linear forwards 1s,fill 0.5s ease forwards 3s;
+}
+#intro-logo path:nth-child(5){
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    stroke-dasharray: 318.081298828125;
+    stroke-dashoffset: 318.081298828125;
+    animation: line-anim 0.5s linear forwards 1.5s,fill 0.5s ease forwards 3s;
+}
+#intro-logo path:nth-child(6){
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    stroke-dasharray: 36.81599044799805;
+    stroke-dashoffset: 36.81599044799805;
+    animation: line-anim 0.5s linear forwards 2s,fill 0.5s ease forwards 3s;
+}
+#intro-logo path:nth-child(7){
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    stroke-dasharray: 234.0988006591797;
+    stroke-dashoffset: 234.0988006591797;
+    animation: line-anim 0.5s linear forwards 2.5s,fill 0.5s ease forwards 3s;
+}
+
+@keyframes line-anim{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes fill {
+    from{
+        fill: transparent;
+    }
+    to{
+        fill: white;
+    }
+}
+@keyframes spooky {
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeaway{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}

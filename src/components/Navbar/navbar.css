@@ -10,10 +10,10 @@
     justify-content: space-between;
 }
 
-#logo{
-    font-size: 2em;
-    color: #fff;
-    user-select: none;
+#logo>img{
+    margin: 0;
+    padding: 0;
+    width: 50%;
 }
 
 .nav_link{

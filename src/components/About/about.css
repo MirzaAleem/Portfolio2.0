@@ -1,7 +1,7 @@
 #about{
     position: relative;
     background: #020912;
-    padding: 100px 100px;
+    padding: 20px 100px 100px;
 }
 video {
   position: fixed;
@@ -28,7 +28,7 @@ video {
 }
 
 .quote{
-  margin-bottom: 10%;
+  margin-bottom: 50px;
 }
 
 q{

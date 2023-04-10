@@ -1,29 +1,26 @@
 import "./about.css"
-import ScrollReveal from "scrollreveal"
-
-ScrollReveal().reveal('.quote')
 
 function About() {
   return (
     <div id="about">
-      <div className="quote"><q>Death is the ultimate reminder that each moment of life is a precious gift,
+      <div className="quote" data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"><q>Death is the ultimate reminder that each moment of life is a precious gift,
          and it is up to us to make the most of it.</q>
       </div>
 
     <div id="info">
-      <div className="about-text">
+      <div className="about-text" data-aos="fade-right" data-aos-offset="200" data-aos-delay="100" data-aos-duration="2000">
         <h2>Greetings,</h2>
         <p>My name is <em className="keywords">Mirza Aleem Abbas</em>, and I am currently in the final semester of my B.Tech in Computer Science program.
            As an aspiring web developer and UI/UX developer, I have gained valuable knowledge in the field.
         </p>
       </div>
 
-      <div className="about-me-image">
+      <div className="about-me-image" data-aos="fade-left" data-aos-offset="200" data-aos-delay="100" data-aos-duration="3000">
         <img src="assets\images\me.png" alt="Me" className="floating-animation" />
       </div>
     </div>
 
-    <section className="techStack">
+    <section className="techStack" data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
   <h2>Tech Stack &lt;/&gt;</h2>
   <ul className="techList">
     <li>

@@ -4,8 +4,8 @@ import {Info} from '../../data.js'
 const Project = () => {
   return (
     <div id="project">
-        <h2 id='project-heading'>Projects  <i className="fas fa-briefcase"></i></h2>
-        <section id='projects'>
+        <h2 id='project-heading' data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="2000">Projects  <i className="fas fa-briefcase"></i></h2>
+        <section id='projects' data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="2000">
         {Info.map((val) => {
           return (
             <a href={val.url} className="project-link">
@@ -22,6 +22,7 @@ const Project = () => {
           )
         })}  
         </section>
+        <div className="quote2">"Dare to Dream, Dare to Build"</div>
     </div>
   );
 };
