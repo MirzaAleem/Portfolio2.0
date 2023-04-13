@@ -8,6 +8,7 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 #greet{
@@ -33,3 +34,9 @@
 #gate-right{
     transform: translateX(40vw);
 }
+
+@media (max-width: 768px) {
+    .parallax{
+      display: none;
+    }
+  }

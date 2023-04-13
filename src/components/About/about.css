@@ -88,6 +88,7 @@ q{
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
@@ -132,4 +133,29 @@ q{
     .info {
       flex-direction: column;
     }
+    #about{
+      padding: 20px;
+      padding-top: 100px;
+    }
+    
+    .about-me-image , .about-text{
+      width: auto;
+    }
+
+    q{
+      font-size: 1rem;
+    }
+    #about h2{
+      font-size: 2rem;
+      color: #fff;
+      margin-bottom: 2px;
+      padding-left: 20px;
+      margin-top: 50px;
+  }
+
+  .techList li{
+    margin: 0;
+    width: 50%;
+  }
+
   }

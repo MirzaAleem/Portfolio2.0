@@ -8,6 +8,11 @@ function About() {
       </div>
 
     <div id="info">
+
+      <div className="about-me-image" data-aos="fade-left" data-aos-offset="200" data-aos-delay="100" data-aos-duration="3000">
+        <img src="assets\images\me.png" alt="Me" className="floating-animation" />
+      </div>
+
       <div className="about-text" data-aos="fade-right" data-aos-offset="200" data-aos-delay="100" data-aos-duration="2000">
         <h2>Greetings,</h2>
         <p>My name is <em className="keywords">Mirza Aleem Abbas</em>, and I am currently in the final semester of my B.Tech in Computer Science program.
@@ -15,9 +20,6 @@ function About() {
         </p>
       </div>
 
-      <div className="about-me-image" data-aos="fade-left" data-aos-offset="200" data-aos-delay="100" data-aos-duration="3000">
-        <img src="assets\images\me.png" alt="Me" className="floating-animation" />
-      </div>
     </div>
 
     <section className="techStack" data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">

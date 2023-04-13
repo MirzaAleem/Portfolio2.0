@@ -48,3 +48,10 @@
     transform: scale(1);
     opacity: 1;
 }
+
+
+@media (max-width: 880px) {
+  #nav{
+    display: none;
+  }
+}

@@ -1,5 +1,6 @@
 #intro{
     width: 100%;
+    margin: 0;
     height: 100vh;
     background-color: black;
     display: flex;
@@ -8,8 +9,12 @@
     animation: fadeaway 2s ease 5s;
 }
 
+#intro-logo{
+    margin: 20px;
+}
+
 #intro-logo2{
-    margin-left: 90px;
+    margin: 20px;
     opacity: 0;
     animation: spooky 1s ease forwards 3s;;
 }
