@@ -1,7 +1,6 @@
 #project{
     height: 100vh;
-    border: 2px solid #0000003d;
-    background: #0000003d;
+    
 }
 
 #project-heading{
@@ -11,6 +10,7 @@
     color: white;
     margin-bottom: 2px;
     padding-left: 20px;
+        text-shadow: rgba(69, 68, 68, 0.592) 1px 0 10px;
 }
 
 #projects{
@@ -29,6 +29,7 @@
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    
   }
   
   .project-image {
@@ -77,6 +78,7 @@
     font-weight: 400;
     text-align: center;
     color: #fff;
+    text-shadow: rgb(69, 68, 68) 1px 0 10px;
   }
 
   
