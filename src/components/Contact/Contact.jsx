@@ -39,11 +39,12 @@ const Contact = () => {
 </form>
 <footer className="footer">
   <h4 className='social-heading'>Lets's Connect</h4>
-<div className="social-links">
+ <div className="social-links">
     <a href="https://www.linkedin.com/in/aleem-abbas-6aa8811a7/"><i className="fab fa-linkedin"></i></a>
     <a href="https://www.instagram.com/aleemabbas13/"><i className="fab fa-instagram"></i></a>
     <a href="https://github.com/MirzaAleem"><i className="fab fa-github"></i></a>
   </div>
+  <p>Designed and crafted with <span class="heart-icon">&hearts;</span> by @Aleem</p>
 </footer>
 </div>
   );

@@ -54,4 +54,7 @@
   #nav{
     display: none;
   }
+  #navbar{
+    padding: 21px 100px 10px 20px;
+  }
 }

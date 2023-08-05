@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <>
     <header id="navbar">
-      <h2 id="logo">
+      <h2 id="logo" onClick={()=> window.location.reload()}>
         <img src="assets\images\Logo.svg" alt="" />
       </h2>
       <nav id="nav">
