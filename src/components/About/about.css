@@ -32,6 +32,7 @@ video {
 }
 
 q{
+    display: block;
     font-size: 1.5rem;
     text-align: center;
     color: #fff;
@@ -142,9 +143,6 @@ q{
       width: auto;
     }
 
-    q{
-      font-size: 1rem;
-    }
     #about h2{
       font-size: 2rem;
       color: #fff;

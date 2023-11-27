@@ -3,8 +3,8 @@ import "./about.css"
 function About() {
   return (
     <div id="about">
-      <div className="quote" data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"><q>Death is the ultimate reminder that each moment of life is a precious gift,
-         and it is up to us to make the most of it.</q>
+      <div className="quote" data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"><q>The best way to predict the future is to invent it.</q>
+      <span style={{color:'white',float:'right', fontSize:"1rem"}}>- Alan Kay</span>
       </div>
 
     <div id="info">
@@ -15,8 +15,9 @@ function About() {
 
       <div className="about-text" data-aos="fade-right" data-aos-offset="200" data-aos-delay="100" data-aos-duration="2000">
         <h2>Greetings,</h2>
-        <p>My name is <em className="keywords">Mirza Aleem Abbas</em>, and I am currently in the final semester of my B.Tech in Computer Science program.
-           As an aspiring web developer and UI/UX developer, I have gained valuable knowledge in the field.
+        <p>I am <em className="keywords">Mirza Aleem Abbas</em>, a recent graduate with a Bachelor's degree in Computer Science and Engineering (2023),
+           achieving a noteworthy CGPA of <em className="keywords">7.9/10</em>. Specializing as a <em className="keywords">full-stack web developer</em>, 
+           I bring experience in constructing web applications and proficiency in front-end development
         </p>
       </div>
 

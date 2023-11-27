@@ -95,3 +95,10 @@
         opacity: 0;
     }
 }
+@media screen and (max-width: 768px){
+    #intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
