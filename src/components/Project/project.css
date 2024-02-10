@@ -8,7 +8,7 @@
   margin-top: 50px;
     text-align: center;
     font-size: 4rem;
-    color: white;
+    color: #ffffffad;
     margin-bottom: 2px;
     padding-left: 20px;
 }
@@ -41,17 +41,20 @@
     height: auto;
     display: block;
     transition: all 0.3s ease-in-out;
+    padding: 10px;
+    background: #ffffffad;
   }
   
   .project-info {
     padding: 1rem;
-    background-color: #fff;
+    background-color: #ffffffad;
     text-align: center;
     transition: all 0.3s ease-in-out;
+    font-family: monospace;
   }
   
   .project-title {
-    background: white;
+    background: #ffffffad;
     text-align: center;
     padding: 10px;
 

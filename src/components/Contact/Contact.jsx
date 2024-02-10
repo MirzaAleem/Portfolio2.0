@@ -44,7 +44,7 @@ const Contact = () => {
     <a href="https://www.instagram.com/aleemabbas13/"><i className="fab fa-instagram"></i></a>
     <a href="https://github.com/MirzaAleem"><i className="fab fa-github"></i></a>
   </div>
-  <p>Designed and crafted with <span class="heart-icon">&hearts;</span> by @Aleem</p>
+  <p>Designed and crafted with <span className="heart-icon">&hearts;</span> by @Aleem</p>
 </footer>
 </div>
   );

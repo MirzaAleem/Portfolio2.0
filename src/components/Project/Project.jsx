@@ -22,7 +22,7 @@ const Project = () => {
       >
         {Info.map((val) => {
           return (
-            <a href={val.url} className="project-link">
+            <a key={val.id} href={val.url} className="project-link">
               <div className="project-card">
                 <h3 className="project-title">{val.title}</h3>
                 <div className="project-image">
