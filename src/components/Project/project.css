@@ -51,7 +51,10 @@
   }
   
   .project-title {
-    margin-bottom: 1.5rem;
+    background: white;
+    text-align: center;
+    padding: 10px;
+
   }
   
   .project-description {
